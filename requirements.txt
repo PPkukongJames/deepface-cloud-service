@@ -1,6 +1,8 @@
 fastapi==0.115.4
 uvicorn==0.32.0
+deepFace==0.0.93
 pandas
 openpyxl
 requests
-DeepFace
+tf-keras
+ultralytics
