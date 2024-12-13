@@ -9,7 +9,7 @@ s3_client = session.client(
     endpoint_url='https://play.min.io',
 )
 
-local_base_dir = "D:/TU/Cloud/term_project/Service/deepface-cloud-service/resource/pictures"
+local_base_dir = "/home/ec2-user/deepface-service/deepface-cloud-service/resource/pictures"
 def download_files_with_prefix(bucket_name, local_base_dir):
     try:
         # ดึงรายการ Object ทั้งหมดใน Bucket
